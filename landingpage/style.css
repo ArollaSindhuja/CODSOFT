@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:#FFD1E3;
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    background-color: rgba(124, 80, 122, 0.918);
+    position: fixed;
+    z-index: 99;
+}
+#nav a{
+    font-size: 15px;
+    margin-left: 200px;
+    /* margin-right: 20px; */
+    color: #f7f7f7;
+    margin-top: 20px;
+}
+#main{
+    height: 620px;
+    width: 100%;
+    /* background-color:#FFD1E3; */
+    position: relative;
+    margin-bottom: 10px;
+}
+#h1{
+    font-size:150px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: #444242f5;
+}
+#box1{
+    height:350px;
+    width:380px;
+    background-image: url(https://images.unsplash.com/photo-1640132219022-e7a98b4c92e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8);
+    float: right;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    background-size: cover;
+    object-position: center;
+}
+h3{
+    font-size: 70px;
+    font-weight:500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    color: #5D3587;
+}
+p{
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 10px;
+    left:10px;
+    color: #000;
+}
+
+#box2{
+    height: 300px;
+    position: relative;
+    display: flex;
+    margin: 30px 10px;
+}
+#box2 #abts{
+    width: 50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box2 #abts h1{
+    font-size: 50px;
+    color:purple;
+}
+#abtimg{
+    height:300px;
+    width:50% ;
+    background-color: #5D3587;
+
+    
+
+}
+/* #vd{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+} */
+#box2 h1{
+    font-size: 30px;
+    text-align:center;
+    text-transform: uppercase;
+    color:#000;
+}
+#prod1{
+    height: 600px;
+    width:100% ;
+    margin:30px 20px;
+    
+}
+#prod1 #hed{
+    height: 20px;
+    width: 100%;
+
+}
+#prod1 #hed h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: purple;
+}
+#prod{
+    height: 500px;
+    width:100% ;
+    display: flex;
+    /* margin:0px; */
+}
+#img{
+    height:450px;
+    width:300px;
+    /* background-color: aquamarine; */
+    margin: 35px 10px;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all ease 1s;
+}
+#img:hover img{
+    scale:1.1;
+}
+img{
+   height: 100%;
+   width: 100%;
+
+}
+footer{
+   
+}
+footer h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: #000;
+}
+footer a{
+    display: flex;
+    margin-left: 580px;
+    font-size: 20px;
+}
